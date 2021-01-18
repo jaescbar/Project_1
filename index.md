@@ -27,4 +27,4 @@ The amount of hours worked per weak decreases job satisfaction, especificly the 
 ## Question 3
 Finally, to answer the third question a linear regression model was used. By doing this, we can see how changing someones country changes his salary. Being in the US increses salary in 58067.90040038, being in the UK increses salary in 13817.56257984 and being in Colombia decreses salary in 20934.88944526 compared to the intercept. This analysis is made controling by gender and by hours worked and has no purchising power parity.
 
-![Results Model 2](https://github.com/jaescbar/Project_1/blob/main/Imagen%206.PNG)
+![Results Model 2](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen%206.PNG)
