@@ -5,27 +5,26 @@ Watching the information inside the dataset Stack Overflow Data - 2017 Survey th
 ## Question 1
 To answer the first question a grouping strategy is used. Grouping by the type of education we can see the average income and the average job satisfaction for each group. In this case, we are interested in people that never completed any form of formal education. In job satisfaction this group ranked last, having an average job satisfaction of 6.833333
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen1.PNG)
+![Mean Job Satisfaction by Education](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen1.PNG)
 
 In salary this group ranked in the lower half, with an average income of 44430.660621.
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/imagen%202.PNG)
+![Mean Salary by Education](https://github.com/jaescbar/Project_1/blob/main/Images/imagen%202.PNG)
 
 This lead us to think that never completing any type of formal education lowers the income and job satisfaction of a person.
 
 ## Question 2
 To answer the second question a linear regression model was used. By doing this, we can see how changes in the amount of hours worked per week and in the salary change job satisfaction. The results were expected, not only by logic but seeing a correlation matrix before modelling.
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/imagen%203.PNG)
+![Correlation Matrix](https://github.com/jaescbar/Project_1/blob/main/Images/imagen%203.PNG)
 
 The amount of hours worked per weak decreases job satisfaction, especificly the increase in one extra hour per week decreases the job satisfaction scale in 0.0571125901. On the other hand, increasing the salary increases job satisfaction. A one dolar increase generates and increase in the job satisfaction scale by 0.00000591338185.
 
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen%205.PNG)
+![Results Model 1](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen%205.PNG)
 
 
 ## Question 3
 Finally, to answer the third question a linear regression model was used. By doing this, we can see how changing someones country changes his salary. Being in the US increses salary in 58067.90040038, being in the UK increses salary in 13817.56257984 and being in Colombia decreses salary in 20934.88944526 compared to the intercept. This analysis is made controling by gender and by hours worked and has no purchising power parity.
 
-
-![](https://github.com/jaescbar/Project_1/blob/main/Imagen%206.PNG)
+![Results Model 2](https://github.com/jaescbar/Project_1/blob/main/Imagen%206.PNG)
