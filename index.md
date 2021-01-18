@@ -11,7 +11,7 @@ df.groupby(['FormalEducation']).mean()['JobSatisfaction'].sort_values()
 df.groupby(['FormalEducation']).mean()['Salary'].sort_values()
 ```
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen%201.PNG)
+![](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen1.PNG)
 
 In salary this group ranked in the lower half, with an average income of 44430.660621.
 
