@@ -11,23 +11,7 @@ df.groupby(['FormalEducation']).mean()['JobSatisfaction'].sort_values()
 df.groupby(['FormalEducation']).mean()['Salary'].sort_values()
 ```
 
-I never completed any formal education          6.833333
-
-Bachelor’s degree                               6.866363
-
-Master’s degree                                 6.953151
-
-Primary/elementary school                       6.956897
-
-I prefer not to answer                          7.005682
-
-Some college/university study without degree    7.081334
-
-Professional degree                             7.087459
-
-Secondary school                                7.143082
-
-Doctoral degree                                 7.348857
+![](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen%201.PNG)
 
 In salary this group ranked in the lower half, with an average income of 44430.660621.
 
