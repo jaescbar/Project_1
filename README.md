@@ -13,7 +13,9 @@
   linear regression models and descriptive statistics.
   
   Question 1: Not having any type of formal education affects a person's job satisfaction and salary?
+  
   Question 2: How does hours worked and salary affect a person's job satisfaction?
+  
   Question 3: People that live in the US, UK and Colombia earn a diferent salaries even when we control by gender and by hours worked?
 
 
