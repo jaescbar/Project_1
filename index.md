@@ -11,19 +11,19 @@ df.groupby(['FormalEducation']).mean()['JobSatisfaction'].sort_values()
 df.groupby(['FormalEducation']).mean()['Salary'].sort_values()
 ```
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen%201.PNG)
+![](/Images/Imagen%201.PNG)
 
 In salary this group ranked in the lower half, with an average income of 44430.660621.
 
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/imagen%202.PNG)
+![](/Images/imagen%202.PNG)
 
 This lead us to think that never completing any type of formal education lowers the income and job satisfaction of a person.
 
 ## Question 2
 To answer the second question a linear regression model was used. By doing this, we can see how changes in the amount of hours worked per week and in the salary change job satisfaction. The results were expected, not only by logic but seeing a correlation matrix before modelling.
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/imagen%203.PNG)
+![](/Images/imagen%203.PNG)
 
 The amount of hours worked per weak decreases job satisfaction, especificly the increase in one extra hour per week decreases the job satisfaction scale in 0.0571125901. On the other hand, increasing the salary increases job satisfaction. A one dolar increase generates and increase in the job satisfaction scale by 0.00000591338185.
 
@@ -50,7 +50,7 @@ modelo.fit(X_train, y_train)
 y_test_preds = modelo.predict(X_test) 
 ```
 
-![](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen%205.PNG)
+![](/Images/Imagen%205.PNG)
 
 
 ## Question 3
@@ -86,4 +86,4 @@ modelo2.fit(X_train, y_train)
 y_test_preds = modelo2.predict(X_test) 
 
 ```
-![](https://github.com/jaescbar/Project_1/blob/main/Images/Imagen%206.PNG)
+![](/Imagen%206.PNG)
