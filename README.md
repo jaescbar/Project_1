@@ -26,7 +26,7 @@
 ## 4. Summary of the Results
 
   A blog post containing more information of the project and the results of each question can be found in the link below:
-  https://jaescbar.github.io/Project__1/
+  https://jaescbar.github.io/Project_1/
 
 
 ## 5. Author and Acknowledgements
